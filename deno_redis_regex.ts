@@ -1,5 +1,5 @@
 import { connect } from "https://denopkg.com/keroxp/deno-redis/mod.ts";
-import { serve } from "https://deno.land/std/http/server.ts";
+import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
 
 const redis = await connect({
@@ -7,21 +7,24 @@ const redis = await connect({
     port: 6379
 });
 
-const server = serve({ port: 8000 });
-console.log("http://localhost:8000/");
+const router = new Router();
+router
+    .post("/", async (context) => {
+        const body = await context.request.body();
+        const { key }: { key: string } = await body.value;
+        const redisData: any = await redis.get(key);
+        const redisObj: any=JSON.parse(redisData!);
+        const retObj: any={tid: v4.generate()}, regex = RegExp('a.*');
+        for(const key in redisObj) {
+            if(regex.test(key))
+                retObj[key]=redisObj[key];
+        }
+        context.response.body=retObj;
+    
+    });
 
-for await (const req of server) {
-    const buf: Uint8Array = await Deno.readAll(req.body);
-    const decoder = new TextDecoder();
-    const bodyText = decoder.decode(buf);
-    const bodyObj: any=JSON.parse(bodyText);
-    const redisData: any = await redis.get(bodyObj.key);
-    const redisObj: any=JSON.parse(redisData!);
-    const retObj: any={tid: v4.generate()}, regex = RegExp('a.*');
-    for(const key in redisObj) {
-        if(regex.test(key))
-            retObj[key]=redisObj[key];
-    }
-    req.respond({ body: JSON.stringify(retObj) });
-}
+const app = new Application();
+app.use(router.routes());
+app.use(router.allowedMethods());
+await app.listen({ port: 8000 });
 
