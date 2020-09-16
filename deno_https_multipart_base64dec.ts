@@ -9,7 +9,6 @@ router
             const tid=v4.generate();
             const body = await context.request.body({type: 'form-data'});
             const formData = await body.value.read();
-            console.log(tid);
             const decoded=decode(formData.fields.base64);
             context.response.body={tid, len: decoded.byteLength};
         } catch(err) {
