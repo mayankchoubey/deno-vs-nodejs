@@ -5,5 +5,4 @@ app.use(ctx => {
     ctx.response.body = { body: "Hello World" };
 });
 
-//await app.listen({port: Deno.env.get("PORT")});
 await app.listen({port: 3000});
