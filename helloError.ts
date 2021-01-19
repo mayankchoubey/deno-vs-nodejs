@@ -1,3 +1,5 @@
+abcd
+
 function printNumber(input: number) {
     console.log(input);
 }

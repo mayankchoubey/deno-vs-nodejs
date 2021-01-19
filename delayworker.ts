@@ -1,2 +1,2 @@
-import { delay } from 'https://deno.land/x/delay@v0.2.0/mod.ts';
-await delay(40000);
+import { doze } from 'https://deno.land/x/doze@1.0/mod.ts';
+await doze(15);
