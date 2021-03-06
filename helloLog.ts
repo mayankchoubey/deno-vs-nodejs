@@ -1,10 +1,10 @@
 function printNumber(input: number) {
-    console.log(input);
+  console.log(input);
 }
 
 function printString(input: string) {
-    console.log(input);
+  console.log(input);
 }
 
 printNumber(1);
-printString('One');
+printString("One");

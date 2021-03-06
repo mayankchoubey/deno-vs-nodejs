@@ -1,12 +1,12 @@
-const http = require('http');
+const http = require("http");
 
-const numConsoleLogs=500;
-const server = http.createServer(function(request, response) {
-    response.writeHead(200, {"Content-Type": "application/json"});
-    for(let i=0; i<numConsoleLogs; i++)
-        console.log(`Iteration ${i}`);
-    response.end(JSON.stringify({numConsoleLogs }));
+const numConsoleLogs = 500;
+const server = http.createServer(function (request, response) {
+  response.writeHead(200, { "Content-Type": "application/json" });
+  for (let i = 0; i < numConsoleLogs; i++) {
+    console.log(`Iteration ${i}`);
+  }
+  response.end(JSON.stringify({ numConsoleLogs }));
 });
 
 server.listen(3000);
-

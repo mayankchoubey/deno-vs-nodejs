@@ -1,2 +1,2 @@
-import { doze } from 'https://deno.land/x/doze@1.0/mod.ts';
+import { doze } from "https://deno.land/x/doze/mod.ts";
 await doze(15);
