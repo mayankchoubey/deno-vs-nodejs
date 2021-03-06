@@ -1,0 +1,252 @@
+{
+	"random": 7918,
+	"random float": 56.602,
+	"bool": false,
+	"date": "1981-08-11",
+	"regEx": "helloooooo to you",
+	"enum": "generator",
+	"firstname": "Lelah",
+	"lastname": "Lea",
+	"city": "Phuket (city)",
+	"country": "India",
+	"countryCode": "MH",
+	"email uses current data": "Lelah.Lea@gmail.com",
+	"email from expression": "Lelah.Lea@yopmail.com",
+	"array": [
+		"Tierney",
+		"Max",
+		"Malina",
+		"Cristabel",
+		"Phedra",
+		"Alyssa",
+		"Emylee",
+		"Nanete",
+		"Lanna",
+		"Evita",
+		"Norine",
+		"Tracey",
+		"Marjie",
+		"Karly",
+		"Brooks",
+		"Trixi",
+		"Shaylyn",
+		"Frances",
+		"Kassey",
+		"Shannah",
+		"Kaja",
+		"Jessy",
+		"Hayley",
+		"Fanchon",
+		"Esmeralda",
+		"Ginnie",
+		"Mildrid",
+		"Sharai",
+		"Hettie",
+		"Nessie",
+		"Odessa",
+		"Lusa",
+		"Talya",
+		"Sean",
+		"Netty",
+		"Madelle",
+		"Violet",
+		"Florie",
+		"Mariele",
+		"June",
+		"Ginnie",
+		"Tera",
+		"Lusa",
+		"Dennie",
+		"Gwyneth",
+		"Raf",
+		"Imojean",
+		"Shell",
+		"Cyndie",
+		"Flory"
+	],
+	"array of objects": [
+		{
+			"index": 0,
+			"city": "Jayapura",
+			"lastname": "Peg",
+			"index start at 5": 5
+		},
+		{
+			"index": 1,
+			"city": "Veracruz",
+			"lastname": "Pandolfi",
+			"index start at 5": 6
+		},
+		{
+			"index": 2,
+			"city": "Berlin",
+			"lastname": "Annice",
+			"index start at 5": 7
+		},
+		{
+			"index": 3,
+			"city": "Chittagong",
+			"lastname": "Grayce",
+			"index start at 5": 8
+		},
+		{
+			"index": 4,
+			"city": "Hamburg",
+			"lastname": "Suanne",
+			"index start at 5": 9
+		},
+		{
+			"index": 5,
+			"city": "N'Djamena",
+			"lastname": "Lea",
+			"index start at 5": 10
+		},
+		{
+			"index": 6,
+			"city": "Bissau",
+			"lastname": "Azeria",
+			"index start at 5": 11
+		},
+		{
+			"index": 7,
+			"city": "Port of Spain",
+			"lastname": "Zaslow",
+			"index start at 5": 12
+		},
+		{
+			"index": 8,
+			"city": "Antwerp",
+			"lastname": "Stilwell",
+			"index start at 5": 13
+		},
+		{
+			"index": 9,
+			"city": "Weno",
+			"lastname": "Land",
+			"index start at 5": 14
+		},
+		{
+			"index": 10,
+			"city": "Timbuktu",
+			"lastname": "Gordon",
+			"index start at 5": 15
+		},
+		{
+			"index": 11,
+			"city": "Stuttgart",
+			"lastname": "Girardo",
+			"index start at 5": 16
+		},
+		{
+			"index": 12,
+			"city": "Antofagasta",
+			"lastname": "Yoko",
+			"index start at 5": 17
+		},
+		{
+			"index": 13,
+			"city": "Porto",
+			"lastname": "McClimans",
+			"index start at 5": 18
+		},
+		{
+			"index": 14,
+			"city": "Saint Petersburg",
+			"lastname": "Alva",
+			"index start at 5": 19
+		},
+		{
+			"index": 15,
+			"city": "Shanghai",
+			"lastname": "Bonucci",
+			"index start at 5": 20
+		},
+		{
+			"index": 16,
+			"city": "São Tomé",
+			"lastname": "Ietta",
+			"index start at 5": 21
+		},
+		{
+			"index": 17,
+			"city": "Barcelona",
+			"lastname": "Corilla",
+			"index start at 5": 22
+		},
+		{
+			"index": 18,
+			"city": "Barranquilla",
+			"lastname": "Land",
+			"index start at 5": 23
+		},
+		{
+			"index": 19,
+			"city": "Port of Spain",
+			"lastname": "Karl",
+			"index start at 5": 24
+		},
+		{
+			"index": 20,
+			"city": "Luxembourg (city)",
+			"lastname": "Raffo",
+			"index start at 5": 25
+		},
+		{
+			"index": 21,
+			"city": "Changchun",
+			"lastname": "Saint",
+			"index start at 5": 26
+		},
+		{
+			"index": 22,
+			"city": "Edmonton",
+			"lastname": "Deegan",
+			"index start at 5": 27
+		},
+		{
+			"index": 23,
+			"city": "Malé",
+			"lastname": "Daegal",
+			"index start at 5": 28
+		},
+		{
+			"index": 24,
+			"city": "Tijuana",
+			"lastname": "Behre",
+			"index start at 5": 29
+		},
+		{
+			"index": 25,
+			"city": "Kuala Lumpur",
+			"lastname": "Shaver",
+			"index start at 5": 30
+		},
+		{
+			"index": 26,
+			"city": "Montreal",
+			"lastname": "Clara",
+			"index start at 5": 31
+		},
+		{
+			"index": 27,
+			"city": "Hong Kong",
+			"lastname": "Cassius",
+			"index start at 5": 32
+		},
+		{
+			"index": 28,
+			"city": "Pelotas",
+			"lastname": "Carey",
+			"index start at 5": 33
+		},
+		{
+			"index": 29,
+			"city": "Gaza",
+			"lastname": "Darian",
+			"index start at 5": 34
+		}
+	],
+	"Ronna": {
+		"age": 86
+	}
+}
