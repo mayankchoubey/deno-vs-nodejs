@@ -5,4 +5,4 @@ var server = http.createServer(function (request, response) {
   response.end(JSON.stringify({ body: "Hello world" }));
 });
 
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
